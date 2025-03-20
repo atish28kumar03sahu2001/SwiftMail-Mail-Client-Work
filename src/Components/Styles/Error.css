@@ -1,0 +1,39 @@
+.ERROR_SEC{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.ERRH{
+    text-align: center;
+    text-wrap: wrap;
+    word-wrap: break-word;
+}
+.ERR_H1{
+    font-size: 34px;
+    color: var(--error-text-color);
+}
+.ERR_H2{
+    font-size: 26px;
+    color: var(--error-text-color);
+}
+.ERR_BTN{
+    border: none;
+    background: none;
+    outline: none;
+    font-size: 13px;
+    color: var(--text-color);
+    background: var(--button-background);
+    width: 100px;
+    height: 30px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.ERR_BTN:hover {
+    border: 2px solid var(--button-background);
+    background-color: var(--text-color);
+    color: var(--error-text-color);
+}

@@ -1,0 +1,140 @@
+.SEC_FRM_H1{
+    margin: 40px 20px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.SEC_H1{
+    text-align: center;
+    text-wrap: wrap;
+    word-wrap: break-word;
+    font-size: 24px;
+    color: var(--error-text-color);
+}
+.SEC_GOO_BTN{
+    margin: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.GOO_BTN{
+    border: none;
+    outline: none;
+    background: none;
+    border: 2px solid rgb(167, 167, 167);
+    border-radius: 10px;
+    width: 200px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    cursor: pointer;
+}
+.SPAN_ICON{
+    margin: 5px;
+}
+.SPAN_ICON_P{
+    margin: 5px;
+    width: 130px;
+    font-size: 13px;
+}
+.FRM_SIGNUP_SEC{
+    margin: 20px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.SIGNUP_FRM{
+    border: 2px solid var(--background-color);
+    border-radius: 10px;
+}
+.FRM_DIV{
+    margin: 5px;
+    width: 250px;
+}
+.FRM_LBL{
+    font-size: 13px;
+    margin: 5px;
+    color: var(--error-text-color);
+}
+.FRM_IP_DIV{
+    border: 2px solid var(--background-color);
+    margin: 5px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 5px;
+}
+.ICON_SPAN{
+    background-color: var(--background-color);
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 35px;
+    width: 24px;
+    cursor: pointer;
+}
+.FRM_IP{
+    width: 205px;
+    height: 30px;
+    border: none;
+    outline: none;
+    font-size: 12px;
+    padding-left: 5px;
+}
+.LNK_DIV{
+    margin: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.GO_SN_LNK{
+    margin: 10px;
+    text-decoration: none;
+    color: var(--error-text-color);
+    font-size: 12px;
+    text-align: center;
+    text-wrap: wrap;
+    word-wrap: break-word;
+}
+.SGUP_DIV{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+}
+.SGUP_BTN{
+    border: none;
+    outline: none;
+    background: none;
+    width: 100px;
+    height: 30px;
+    border-radius: 10px;
+    background-color: var(--button-background);
+    color: var(--text-color);
+    font-size: 13px;
+    cursor: pointer;
+}
+.UFP_BTN{
+    border: none;
+    outline: none;
+    background: none;
+    font-size: 12px;
+    color: var(--error-text-color);
+    cursor: pointer;
+}

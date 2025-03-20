@@ -1,0 +1,126 @@
+.WELCOME_SEC{
+    margin: 40px 20px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.WEL_H{
+    text-align: center;
+    text-wrap: wrap;
+    word-wrap: break-word;
+    color: var(--error-text-color);
+}
+.WELCOME_H1{
+    font-size: 28px;
+}
+.WELCOME_H2{
+    font-size: 26px;
+}
+.WELCOME_SEC_BTN{
+    margin: 40px 20px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.WELCOME_BTN{
+    border: none;
+    outline: none;
+    background: none;
+    width: 120px;
+    height: 40px;
+    background-color: var(--button-background);
+    color: var(--text-color);
+    border-radius: 10px;
+    font-size: 13px;
+    cursor: pointer;
+}
+.WELCOME_BTN:hover{
+    background-color: var(--text-color);
+    border: 2px solid var(--error-text-color);
+    color: var(--error-text-color);
+}
+.WELCOME_P_SEC{
+    margin: 40px 20px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.WELCOME_P{
+    text-align: center;
+    font-size: 14px;
+    font-weight: 300;
+    color: var(--error-text-color);
+}
+.WELCOME_DATA_SEC{
+    margin: 40px 20px;
+    border: 2px solid var(--background-color);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.WELCOME_DATA_DIV{
+    margin: 10px;
+}
+
+.WELCOME_DATA_DIV{
+    border: 2px solid var(--button-background);
+    margin: 20px;
+    border-radius: 10px;
+}
+.WELCOME_DATA_DIV summary {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    font-weight: bold;
+    color: var(--error-text-color);
+    height: 30px;
+    padding: 5px;
+    font-size: 14px;
+}
+.WELCOME_DATA_DIV .icon {
+    font-size: 18px;
+    margin-right: 8px;
+    transition: transform 0.3s ease;
+}
+.WELCOME_DATA_DIV .down-icon {
+    display: none;
+}
+.WELCOME_DATA_DIV[open] .right-icon {
+    display: none;
+}
+.WELCOME_DATA_DIV[open] .down-icon {
+    display: inline-block;
+}
+.WELCOME_DATA_P{
+    text-align: justify;
+    text-wrap: wrap;
+    word-wrap: break-word;
+    font-size: 12px;
+    margin: 10px;
+    color: var(--error-text-color);
+}
+
+@media screen and (max-width: 600px) {
+    .WELCOME_H1 {
+        font-size: 24px;
+    } 
+    .WELCOME_H2 {
+        font-size: 22px;
+    }   
+}
+@media screen and (max-width: 425px) {
+    .WELCOME_H1 {
+        font-size: 22px;
+    } 
+    .WELCOME_H2 {
+        font-size: 20px;
+    }   
+}

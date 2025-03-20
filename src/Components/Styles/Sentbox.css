@@ -1,0 +1,97 @@
+.MAIL_SEC_HDR{
+    margin: 20px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.MAIL_SEC_H1{
+    text-align: center;
+    text-wrap: wrap;
+    word-wrap: break-word;
+    font-size: 30px;
+    color: var(--error-text-color);
+}
+.MAIL_SEC_SENT{
+    margin: 20px;
+    border: 2px solid var(--background-color);
+    border-radius: 10px;
+    height: 500px;
+    overflow-y: auto;
+}
+.SENTBOX_DATA_DIV{
+    border: 2px solid var(--background-color);
+    margin: 10px;
+    border-radius: 10px;
+}
+
+.SENTBOX_DATA_DIV summary {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    font-weight: bold;
+    color: var(--error-text-color);
+    height: 30px;
+    padding: 5px;
+    font-size: 14px;
+}
+.SENTBOX_DATA_DIV .icon {
+    font-size: 18px;
+    margin-right: 8px;
+    transition: transform 0.3s ease;
+}
+.SENTBOX_DATA_DIV .down-icon {
+    display: none;
+}
+.SENTBOX_DATA_DIV[open] .right-icon {
+    display: none;
+}
+.SENTBOX_DATA_DIV[open] .down-icon {
+    display: inline-block;
+}
+.SENTBOX_DATA_DIV_P{
+    text-align: justify;
+    text-wrap: wrap;
+    word-wrap: break-word;
+    font-size: 14px;
+    margin: 10px;
+    color: var(--error-text-color);
+}
+.SENTBOX_DATA_DIV_SPAN{
+    text-align: justify;
+    text-wrap: wrap;
+    word-wrap: break-word;
+    font-size: 14px;
+    font-weight: 600;
+    color: var(--error-text-color);
+}
+.OTHER_P{
+    margin: 10px;
+    text-align: center;
+    text-wrap: wrap;
+    word-wrap: break-word;
+    font-size: 20px;
+    font-weight: 600;
+    color: var(--error-text-color);
+}
+
+@media screen and (max-width: 450px) {
+    .SENTBOX_DATA_DIV summary p {
+        font-size: 12px;
+        font-weight: 600;
+    }
+}
+
+@media screen and (max-width: 390px) {
+    .SENTBOX_DATA_DIV summary p {
+        font-size: 12px;
+        font-weight: 600;
+        overflow-x: auto;
+        white-space: nowrap;
+        display: block;
+    }
+    .SENTBOX_DATA_DIV_P, .SENTBOX_DATA_DIV_SPAN{
+        text-align: start;
+    }
+}

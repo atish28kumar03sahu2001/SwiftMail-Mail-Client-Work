@@ -1,0 +1,66 @@
+.CMP_SEC_H1{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 40px 20px;
+}
+.CMP_H1{
+    text-align: center;
+    text-wrap: wrap;
+    word-wrap: break-word;
+    font-size: 24px;
+    color: var(--error-text-color);
+}
+.CMP_FRM_SEC{
+    margin: 10px;
+}
+.CMP_FRM{
+    border: 2px solid var(--background-color);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.FRMIP{
+    border: none;
+    outline: none;
+    background-color: white;
+    border: 2px solid var(--button-background);
+    border-radius: 7px;
+    margin: 10px;
+    height: 40px;
+    padding: 5px;
+    font-size: 13px;
+}
+.TXTAR{
+    resize: none;
+    height: 200px;
+}
+.BTN_DIV{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    align-items: center;
+    margin: 10px;
+}
+.SBMT_BTN{
+    border: none;
+    outline: none;
+    background: none;
+    width: 120px;
+    height: 40px;
+    background-color: var(--button-background);
+    border-radius: 10px;
+    font-size: 13px;
+    color: var(--text-color);
+    cursor: pointer;
+}
+.SBMT_BTN:hover {
+    border: 2px solid var(--background-color);
+    background-color: var(--text-color);
+    color: var(--error-text-color);
+    font-weight: 600;
+}
